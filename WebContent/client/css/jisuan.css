@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*清除网页中个标签的默认属性*/
+* { margin: 0; padding: 0; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000; background: #f1f1f1; }
+a, a:active, a:link, a:visited, a:hover { text-decoration: none; }
+a img, fieldset { border: 0; }
+ul, li { list-style: none; }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+table { font-size: inherit; border-collapse: collapse; border-spacing: 0; }
+textarea { overflow: auto; }
+q:before, blockquote:before, q:after, blockquote:after { content: ""; }
+/*关于浮动的样式定义*/
+.clear { clear: both; height: 0; overflow: hidden; display: block; }
+.floatleft { float: left; display: inline; }
+.floatright { float: right; display: inline; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; overflow: hidden; }
+.clearfix { zoom: 1; /*IE<8*/ }
+/*字的定义*/
+.f12 { font-size: 12px; }
+.f14 { font-size: 14px; }
+/*关于颜色的定义*/
+.black { color: #111; }
+.white { color: #fff; }
+.gray { color: #6d6d6d; }
+.red { color: #F00; }
+/*其他通用定义*/
+.none { display: none; }
+.block { display: block; }
+.inline { display: inline; }
+.inl_blk { display: inline-block; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.overflow_hide { overflow: hidden; }
+.ln22 { line-height: 22px; }
+/*关于padding、margin的定义*/
+.pt2 { padding-top: 2px; }
+.p20 { padding: 20px; }
+.mt3 { margin-top: 3px; }
+.mt10 { margin-top: 10px; }
+.mt14 { margin-top: 14px; }
+.ml4 { margin-left: 4px; }
+.ml10 { margin-left: 10px; }
+/*主体框架*/
+.container { min-width: 1024px; _width:expression((document.documentElement.clientWidth||document.body.clientWidth) < 1024 ? "1024px" : "");
+}
+.bluebg { background: #417eb7; }
+.checkbox { width: 14px; height: 14px; }
+/*left开始*/
+.left { float: left; width: 200px; padding-right: 7px; background: url(../images/left_bg.gif) repeat-y; overflow: auto; }
+.left_nav dt { height: 41px; line-height: 40px; padding: 0 13px; border-right: #236fb6 1px solid; background: url(../images/left_nav_dt_bg.gif) repeat-x; }
+.left_nav dt span { float: left; font-weight: bold; background: url(../images/left_nav_dt_iconl1.gif) no-repeat left center; padding-left: 28px; }
+.left_nav dd { height: auto; line-height: 30px; padding: 0 10px 0 40px; }
+.left_nav dd div  { color: #d8ecff; background: url(../images/2.png) no-repeat left center; padding-left: 20px; }
+.left_nav dd a  { color: #d8ecff; background: url(../images/left_n1av_dd_icon.png) no-repeat left center; padding-left: 20px; }
+.left_nav li.currentl { background: 00CCCC;}
+.left_nav a.currentl { background: #2d689f;}
+.left_nav_dd_icon { float: left; margin: 10px 10px 0 0; }
+/*left结束*/
+/*right开始*/
+.right1 { float: right; overflow: auto;}
+.right_ctn { padding: 0 10px; }
+/*right结束*/
+
+/*图片适应屏幕
+img { height: auto; width: auto\9; width:100%; }*/

@@ -1,0 +1,76 @@
+body { background: #efefef;}
+.superloginA {background: url(../images/bg_loginA.jpg) center 0 no-repeat #313541; min-width: 1000px; height: 450px;}
+.superlogin {background: url(../images/bg_login.jpg) center 0 no-repeat #f23e47; min-width: 1000px; height: 450px;}
+.loginBox { margin-top: -307px;}
+.loginBox .logo { width: 232px; margin: 0 auto;}
+.loginMain { background: #fff; width: 418px; height: 358px; margin: 109px auto;}
+.loginMain .tabwrap { padding: 20px 40px;}
+.loginMain .tabwrap td { vertical-align: middle;}
+.loginMain .tabwrap td .txt { width: 242px; height: 25px; padding: 5px; border: 1px solid #cdcdcd; margin: 13px 0;}
+.loginMain .tabwrap td .txt2 { float: left; width: 112px;}
+.loginMain .tabwrap td span.yzm { float: left; display: inline-block; width: 106px; height: 35px; overflow: hidden; margin: 13px 0 0 19px;}
+.loginMain .tabwrap td.title { font-size: 16px; color: #454545; line-height: 50px;}
+.loginMain .tabwrap tr.errortd td { padding: 0 0 21px;}
+.loginMain .tabwrap td i.ico-error { display: block; float: left; width: 18px; height: 17px; background: url(../images/ico_wrong.png) no-repeat; margin-right: 9px; position: relative; top: 2px;}
+.loginMain .tabwrap td span.errorword { color: #e8000c; line-height: 18px;}
+.loginMain .tabwrap td input[type=submit] { width: 102px; height: 42px; color: #fff; font-size: 16px; border-radius: 2px;}
+.loginMain .tabwrap td input[type=button] { width: 102px; height: 42px; color: #fff; font-size: 16px; border-radius: 2px;}
+.loginMain .tabwrap td input.loginbtn { background: #00B38B;}
+.loginMain .tabwrap td input.resetbtn { background: #999999; margin-left: 46px; }
+.loginMain .tabwrap td input[type=button]:hover { opacity: 0.9;}
+.loginMain .tabwrap td.forgetpsw { padding-top: 20px; text-align: right;}
+.loginMain .tabwrap td.forgetpsw a { color: #666;}
+.loginMain .tabwrap td.forgetpsw a:hover { color: #fa5d5c;}
+.footer { text-align: center; color: #8f8f8f; padding: 37px 0 10px;}
+/*忘记密码*/
+.resetpsw { width: 180px; height: 49px; background: rgba(255,255,255,0.23); -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#77000000', endColorstr='#77000000')"; color: #fff; font-size: 28px; text-align: center; line-height: 49px; border-radius: 24px; -moz-border-radius: 24px; -webkit-border-radius: 24px; margin: 0 auto;}
+.stepBar { width: 516px; margin: 82px auto 0; position: relative;}
+.loginMain2 { background: none; margin-top: 120px;}
+.loginMain2 .tabwrap { padding: 25px 15px;}
+.loginMain2 .tabwrap td.title2 { font-size: 16px; color: #454545;}
+.pswfilish { text-align: center; margin: 120px auto 190px;}
+.pswfilish p { font-size: 16px; text-align: center; line-height: 120px; color: #454545;}
+.pswfilish .btn { text-align: center;}
+.pswfilish .btn input[type=button] { width: 102px; height: 42px; color: #fff; font-size: 16px; border-radius: 2px;}
+.pswfilish .btn input.loginbtn { background: #00B38B;}
+.pswfilish .btn input.resetbtn { background: #999999; margin-left: 46px; }
+.pswfilish .btn input[type=button]:hover { opacity: 0.9;}
+/*验证码*/
+ .code
+    {
+         font-family:Arial;
+         font-style:italic;
+         color:green;
+         font-size:20px;
+         border:0;
+         padding:2px 3px;
+         letter-spacing:3px;
+         font-weight:bolder;            
+         float:left;           
+         cursor:pointer;
+         width:90px;
+         height:50px;
+         line-height:35px;
+         text-align:center;
+         vertical-align:middle;
+         background-color:white;
+     }
+     span {
+        text-decoration:none;
+        font-size:12px;
+        color:#288bc4;
+        padding-left:10px;
+    }
+
+    span:hover {
+        text-decoration:underline;
+        cursor:pointer;
+    }
+ .form-control txt::-moz-placeholder{
+ 	color:#ADD8E6; 
+ 	font-size:5px;
+ }
+.form-control txt:-ms-input-placeholder{
+	color:#ADD8E6; 
+	
+}
